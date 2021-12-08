@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajat Jain</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,300;1,600;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+       
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#why">Why Me?</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+          </div>
+    </nav>
+    <!--HOME SECTION-->
+    <section class="home" id="home">
+        <br><br><br><br><br>
+        <div class="home-text">
+        <h4 style="margin-left: 10%;">Hello! My name is</h4>
+        <h1 style="margin-left: 10%;">Rajat Jain</h1>
+        <h2 style="margin-left: 10%;">And I am a <span id="typed" class="typed"></span></h2>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+    </section>
+
+    <!--About Section-->
+
+    <section class="about" id="about">
+        <h3 class="about-heading">About Me</h3>
+        <div class="about-section">
+        <img src="/Images/IMG-20210115-WA0037.jpg" alt="profilepic" class="profilepic">
+        <div class="writing">
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eos inventore blanditiis velit maiores repellendus omnis. Dolorem corporis, ipsa nostrum amet illo, praesentium exercitationem tempore, nihil excepturi maiores aut quam?</p>
+        </div>
+        </div><br>
+    </section>
+
+    <section class="services" id="services">
+          <h3>Services</h3>
+        <div class="container">
+            <div class="inner-container">
+                <h4>UI Designs</h4>
+                <p class="para">
+                    A UI Designer — or User Interface Designer — designs all the screens through which a user will move while using a website, app, or video game, while also creating the visual design elements that make this movement possible.
+                    </p>
+                <a href="" class = "service-link">Learn More --></a>
+            </div>
+            <div class="inner-container">
+                <h4>Front End Development</h4>
+                <p class="para">Front End developer makes a website by using HTML, CSS, JAVASCRIPT. These three are main Front End landuages.</p>
+                <a href="" class = "service-link">Learn More --></a>
+            </div>
+            <div class="inner-container">
+                <h4>Unity Model Designs</h4>
+                <p class="para">I make models (like house, character, etc..) for game engine like unity and i make it by blender</p>
+                <a href="" class = "service-link">Learn More --></a>
+            </div>            
+        </div>  
+<br><br>
+    </section>
+    <br>
+    <section class="why" id="why">
+        <h3>Why me ?</h3>
+        <br>
+        <div class="container1">
+            <div class="inner-container1">
+                <h4>Web Designs</h4><br><br><br>
+                <p class="para">My Web Designs are made with UI design. Which will make website looks better</p>
+            </div>
+            <div class="inner-container1">
+                <h4>Responsive Designs</h4><br><br><br>
+                <p class="para">My website are fully Responsive design and work best on Mobile, Tablet, Laptop, etc..</p>
+            </div>
+            <div class="inner-container1">
+                <h4>SEO Friendly</h4><br><br><br>
+                <p class="para">Totally seo friend. It makes your website come to top when any one search about any topic realted to your website.</p>
+            </div>            
+        </div>  
+    </section><hr>
+
+          <script src="script.js"></script>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js" async defer></script>
+    <script>
+        window.onload = function () {
+            console.log("loaded")
+            var typed = new Typed('#typed', {
+                strings: ["Developer", "Front End ", "UI Designs", "Low End Games Models", "Unity Level Designer", "Youtuber"],
+                backSpeed: 15,
+                smartBackspace: true,
+                backDelay: 1200,
+                startDelay: 1000,
+                typeSpeed: 25,
+                loop: true,
+            });
+        };
+    </script>
+
+
+</body>
+</html>
